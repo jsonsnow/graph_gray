@@ -15,6 +15,7 @@
 		BA56DA3E1FCC1DC4000E2121 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BA56DA3D1FCC1DC4000E2121 /* main.m */; };
 		BA56DA481FCC1DC5000E2121 /* graph_gary_algorithmTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BA56DA471FCC1DC5000E2121 /* graph_gary_algorithmTests.m */; };
 		BA56DA531FCC1DC5000E2121 /* graph_gary_algorithmUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BA56DA521FCC1DC5000E2121 /* graph_gary_algorithmUITests.m */; };
+		BA56DA621FCC1DFA000E2121 /* graph_gray.c in Sources */ = {isa = PBXBuildFile; fileRef = BA56DA601FCC1DFA000E2121 /* graph_gray.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		BA56DA4E1FCC1DC5000E2121 /* graph_gary_algorithmUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = graph_gary_algorithmUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA56DA521FCC1DC5000E2121 /* graph_gary_algorithmUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = graph_gary_algorithmUITests.m; sourceTree = "<group>"; };
 		BA56DA541FCC1DC5000E2121 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA56DA601FCC1DFA000E2121 /* graph_gray.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = graph_gray.c; sourceTree = "<group>"; };
+		BA56DA611FCC1DFA000E2121 /* graph_gray.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = graph_gray.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				BA56DA2F1FCC1DC4000E2121 /* AppDelegate.m */,
 				BA56DA311FCC1DC4000E2121 /* ViewController.h */,
 				BA56DA321FCC1DC4000E2121 /* ViewController.m */,
+				BA56DA601FCC1DFA000E2121 /* graph_gray.c */,
+				BA56DA611FCC1DFA000E2121 /* graph_gray.h */,
 				BA56DA341FCC1DC4000E2121 /* Main.storyboard */,
 				BA56DA371FCC1DC4000E2121 /* Assets.xcassets */,
 				BA56DA391FCC1DC4000E2121 /* LaunchScreen.storyboard */,
@@ -266,6 +271,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BA56DA331FCC1DC4000E2121 /* ViewController.m in Sources */,
+				BA56DA621FCC1DFA000E2121 /* graph_gray.c in Sources */,
 				BA56DA3E1FCC1DC4000E2121 /* main.m in Sources */,
 				BA56DA301FCC1DC4000E2121 /* AppDelegate.m in Sources */,
 			);
