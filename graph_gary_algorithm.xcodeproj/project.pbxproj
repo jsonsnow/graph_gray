@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BA472E171FCCF39C0039CE5E /* 201052564110453.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA472E161FCCF3990039CE5E /* 201052564110453.jpg */; };
 		BA56DA301FCC1DC4000E2121 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BA56DA2F1FCC1DC4000E2121 /* AppDelegate.m */; };
 		BA56DA331FCC1DC4000E2121 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA56DA321FCC1DC4000E2121 /* ViewController.m */; };
 		BA56DA361FCC1DC4000E2121 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA56DA341FCC1DC4000E2121 /* Main.storyboard */; };
@@ -36,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BA472E161FCCF3990039CE5E /* 201052564110453.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 201052564110453.jpg; sourceTree = "<group>"; };
 		BA56DA2B1FCC1DC4000E2121 /* graph_gary_algorithm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = graph_gary_algorithm.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA56DA2E1FCC1DC4000E2121 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		BA56DA2F1FCC1DC4000E2121 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -108,6 +110,7 @@
 				BA56DA2F1FCC1DC4000E2121 /* AppDelegate.m */,
 				BA56DA311FCC1DC4000E2121 /* ViewController.h */,
 				BA56DA321FCC1DC4000E2121 /* ViewController.m */,
+				BA472E161FCCF3990039CE5E /* 201052564110453.jpg */,
 				BA56DA601FCC1DFA000E2121 /* graph_gray.c */,
 				BA56DA611FCC1DFA000E2121 /* graph_gray.h */,
 				BA56DA341FCC1DC4000E2121 /* Main.storyboard */,
@@ -244,6 +247,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BA56DA3B1FCC1DC4000E2121 /* LaunchScreen.storyboard in Resources */,
+				BA472E171FCCF39C0039CE5E /* 201052564110453.jpg in Resources */,
 				BA56DA381FCC1DC4000E2121 /* Assets.xcassets in Resources */,
 				BA56DA361FCC1DC4000E2121 /* Main.storyboard in Resources */,
 			);
@@ -437,6 +441,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TST4LEUS93;
 				INFOPLIST_FILE = graph_gary_algorithm/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.demo-tool.weiclicai.graph-gary-algorithm";
@@ -450,6 +455,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TST4LEUS93;
 				INFOPLIST_FILE = graph_gary_algorithm/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.demo-tool.weiclicai.graph-gary-algorithm";

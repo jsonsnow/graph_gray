@@ -9,10 +9,13 @@
 #ifndef graph_gray_h
 #define graph_gray_h
 enum GrayType{
+    GrayTypeVectorR,
+    GrayTypeVectorG,
+    GrayTypeVectorB,
     GrayTypeMax,
     GrayTypeAverage,
     GrayTypeWeight
 };
 #include <stdio.h>
-void  prah_gary_process(void *src,uint32_t width,uint32_t height,enum GrayType type);
+void  grah_gary_process(uint32_t *src,uint32_t width,uint32_t height,enum GrayType type);
 #endif /* graph_gray_h */

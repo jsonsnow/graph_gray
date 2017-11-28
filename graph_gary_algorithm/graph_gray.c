@@ -28,21 +28,28 @@ static  uint32_t grayValue(uint32_t r,uint32_t g,uint32_t b,enum GrayType type) 
                 max = b;
             }
             result = max;
-        }
-            break;
-        case GrayTypeAverage:{
+        }break;
+        case GrayTypeAverage:
             result = (r + b + g)/3;
-            
-        }
-        case GrayTypeWeight:{
+            break;
+        case GrayTypeWeight:
             result = red_left_value * r + green_left_value * g + blue_left_value *b;
-        }
+            break;
+        case GrayTypeVectorB:
+            result = b;
+            break;
+        case GrayTypeVectorG:
+            result = g;
+            break;
+        case GrayTypeVectorR:
+            result = r;
+            break;
         default:
             break;
     }
     return result;
 }
-void prah_gary_process(void *src,uint32_t width,uint32_t height,enum GrayType type) {
+void grah_gary_process(uint32_t *src,uint32_t width,uint32_t height,enum GrayType type) {
     if (src == NULL) {
         printf("erro input src,please check you src info");
         return ;
@@ -56,7 +63,6 @@ void prah_gary_process(void *src,uint32_t width,uint32_t height,enum GrayType ty
             r_color = R(color);
             g_color = G(color);
             b_color = B(color);
-         
             uint32_t gray  = grayValue(r_color, g_color, b_color, type);
             *currentPixels = RGBA(gray, gray, gray, alpha);
         }
