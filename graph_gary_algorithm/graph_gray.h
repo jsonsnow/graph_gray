@@ -17,5 +17,5 @@ enum GrayType{
     GrayTypeWeight
 };
 #include <stdio.h>
-void  grah_gary_process(uint32_t *src,uint32_t width,uint32_t height,enum GrayType type);
+void  grah_gary_process(uint32_t *src,uint32_t **dest,uint32_t width,uint32_t height,enum GrayType type);
 #endif /* graph_gray_h */
